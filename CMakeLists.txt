@@ -15,3 +15,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
 include(GlobalDefined)
 
 add_subdirectory(HelloWindow)
+add_subdirectory(HelloTriangle)
