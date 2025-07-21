@@ -16,3 +16,4 @@ include(GlobalDefined)
 
 add_subdirectory(HelloWindow)
 add_subdirectory(HelloTriangle)
+add_subdirectory(HelloTriangle2)
