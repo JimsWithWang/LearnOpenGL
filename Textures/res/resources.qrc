@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="shader">
+        <file>shaders/shader.vs</file>
+        <file>shaders/shader.fs</file>
+    </qresource>
+    <qresource prefix="texture">
+        <file>textures/wall.jpg</file>
+    </qresource>
+</RCC>
