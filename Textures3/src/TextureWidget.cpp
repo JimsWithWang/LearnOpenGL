@@ -28,8 +28,7 @@ void TextureWidget::initializeGL()
 
 void TextureWidget::resizeGL(int width, int height)
 {
-    Q_UNUSED(width)
-    Q_UNUSED(height)
+    glViewport(0, 0, width, height);
 }
 
 void TextureWidget::paintGL()

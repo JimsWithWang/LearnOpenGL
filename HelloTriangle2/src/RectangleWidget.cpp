@@ -25,8 +25,7 @@ void RectangleWidget::initializeGL()
 
 void RectangleWidget::resizeGL(int width, int height)
 {
-    Q_UNUSED(width)
-    Q_UNUSED(height)
+    glViewport(0, 0, width, height);
 }
 
 void RectangleWidget::paintGL()
