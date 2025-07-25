@@ -57,7 +57,7 @@ void CoordinateWidget::paintGL()
     QMatrix4x4 view = QMatrix4x4();
     view.translate(0.0f, 0.0f, -3.0f);
     QMatrix4x4 projection = QMatrix4x4();
-    projection.perspective(45.0f, (float)960 / 640, 0.1f, 100.0f);
+    projection.perspective(45.0f, (float)width() / height(), 0.1f, 100.0f);
 
     unsigned modelLoc = glGetUniformLocation(m_nShaderProgram, "model");
     glUniformMatrix4fv(modelLoc, 1, GL_FALSE, model.constData());
